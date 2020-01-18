@@ -8,6 +8,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 
 public class MessageValidation {
+	
 	private List<String> messages;
 
 	public List<String> setMessagesConstraintViolations(ConstraintViolationException constraintViolationException) {
