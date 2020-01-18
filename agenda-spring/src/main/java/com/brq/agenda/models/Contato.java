@@ -23,7 +23,7 @@ public class Contato implements Serializable {
 
 	@NotBlank(message = "O campo 'Número' é obrigatório!")
 	@Length(min = 5, max = 255, message = "O campo 'Número' deve conter de 5 a 255 caracteres!")
-	private String github;
+	private String num;
 
 	@NotBlank(message = "O campo 'Nome' é obrigatório!")
 	@Length(min = 3, max = 255, message = "O campo 'Nome' deve conter de 3 a 255 caracteres!")
@@ -49,12 +49,12 @@ public class Contato implements Serializable {
 		this.id = id;
 	}
 
-	public String getGithub() {
-		return github;
+	public String getNum() {
+		return num;
 	}
 
-	public void setGithub(String github) {
-		this.github = github;
+	public void setNum(String num) {
+		this.num = num;
 	}
 
 	public String getNome() {

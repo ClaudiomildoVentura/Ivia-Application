@@ -47,7 +47,7 @@
 						<td><img th:src="${contato.avatar}" alt="Avatar user" width="50" height="50" /></td>
 						<td th:text="@{${contato.nome}+' '+${contato.sobrenome}}"></td>
 						<td th:text="${contato.email}"></td>
-						<td th:text="${contato.github}"></td>
+						<td th:text="${contato.num}"></td>
 						<td>
 							<!-- Botão visualizar contato (modal) -->
 							<button class="btn btn-success btn-sm" data-toggle="modal" data-target="#modalVisualizar"
@@ -174,7 +174,7 @@
 		async function setDadosFormVisualizar(id) {
 			data = await
 				getContato(id);
-			document.querySelector("#githubVisualizar").value = data.github;
+			document.querySelector("#githubVisualizar").value = data.num;
 			document.querySelector("#emailVisualizar").value = data.email;
 			document.querySelector("#nomeVisualizar").value = data.nome;
 			document.querySelector("#sobrenomeVisualizar").value = data.sobrenome;
@@ -189,7 +189,7 @@
 			for (var i = 0; i < list.length; i++) {
 				var op = document.createElement("option");
 				op.textContent = list[i].nome;
-				op.value = list[i].github;
+				op.value = list[i].num;
 				datalist.appendChild(op);
 			}
 		}, 500));
