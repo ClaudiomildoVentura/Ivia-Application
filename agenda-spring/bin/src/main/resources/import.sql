@@ -1,5 +1,4 @@
-insert into contato (github, nome, sobrenome, email, avatar) values ('wiliamd', 'William', 'Douglas', 'williamdouglas@algaworks.com', 'https://image.flaticon.com/icons/png/128/149/149072.png');
-insert into contato (github, nome, sobrenome, email, avatar) values ('riesal', 'Al', 'Ries', 'alries@algaworks.com', 'https://image.flaticon.com/icons/png/128/149/149072.png');
-insert into contato (github, nome, sobrenome, email, avatar) values ('adlerm', 'Mortimer', 'J. Adler', 'mortimeradler@algaworks.com', 'https://image.flaticon.com/icons/png/128/149/149072.png');
-insert into contato (github, nome, sobrenome, email, avatar) values ('barbosac', 'Christian', 'Barbosa', 'christianbarbosa@algaworks.com', 'https://image.flaticon.com/icons/png/128/149/149072.png');
-insert into contato (github, nome, sobrenome, email, avatar) values ('markosystem', 'Marcos', 'Batista', 'markosbatista12@algaworks.com', 'https://image.flaticon.com/icons/png/128/149/149072.png');
+insert into contato (num, nome, sobrenome, email, avatar) values ('938264960', 'Claudio', 'Ventura', 'claudiomildo@hotmail.com', 'https://image.flaticon.com/icons/png/128/149/149072.png');
+insert into contato (num, nome, sobrenome, email, avatar) values ('983646267', 'Fernando', 'Vieira', 'ferv@gmail.com', 'https://image.flaticon.com/icons/png/128/149/149072.png');
+insert into contato (num, nome, sobrenome, email, avatar) values ('947455738', 'Julio', 'Andreas', 'julio_andreas@gmail.com', 'https://image.flaticon.com/icons/png/128/149/149072.png');
+insert into contato (num, nome, sobrenome, email, avatar) values ('983646589', 'Alberto', 'Ferreira', 'alberto@gmail.com', 'https://image.flaticon.com/icons/png/128/149/149072.png');

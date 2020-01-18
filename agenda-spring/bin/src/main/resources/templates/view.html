@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html layout:decorator="layout.html">
 <head>
+	<meta charset="utf-8"
 <title th:text="@{'Visualizando perfil de '+${contato.nome}}"></title>
 </head>
 <body>
@@ -8,11 +9,10 @@
 	<div class="container">
 		<div class="py-5 text-center">
 			<img class="d-block mx-auto mb-4"
-				src="https://image.flaticon.com/icons/png/128/149/149072.png" alt=""
+				src="" alt=""
 				width="120" height="120">
 			<h2 th:text="@{${contato.nome}+' '+${contato.sobrenome}}"></h2>
-			<p class="lead">Descrição do contato, pode ser o campo bio da
-				página do github.</p>
+			<p class="lead">Descrição do contato.</p>
 
 		</div>
 	</div>
